@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Portfolio</title>
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- sections -->
+
+      <!-- Home -->
+      <section id="home" class="fade-in">
+        <h1>I'm Nicole Kipkorir</h1>
+        <p>I'm a <span id="dynamic-text"></span></p>
+      </section>
+
+      <!-- about -->
+      <section id="about" class="fade-in">
+        <h1>About Me</h1>
+        <p>
+            Hello! I'm a passionate developer with a strong background in software development and cybersecurity. With expertise in both front-end and back-end development, I create user-centric applications with clean, efficient code. I'm driven by a curiosity for technology and a dedication to delivering impactful solutions.
+            <br><br>
+            My work focuses on solving real-world problems by leveraging innovative technology. Beyond coding, I enjoy collaborating with teams to brainstorm and bring creative ideas to life. My goal is to continually grow my skill set, stay updated with industry trends, and make a positive impact in the tech world.
+          </p>
+      </section>
+
+
+    <!-- skills -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <!-- Each skill item with icon and label -->
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-react"></i>
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-node-js"></i>
+            <p>Node.js</p>
+          </div>
+          <div class="skill">
+            <i class="fas fa-database"></i>
+            <p>MongoDB</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <p>HTML</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-git"></i>
+            <p>Git</p>
+          </div>
+          <div class="skill">
+            <i class="fas fa-cloud"></i>
+            <p>Cloud Computing</p>
+          </div>
+        </div>
+      </section>
+    
+      <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-gallery">
+          <!-- Project Card 1 -->
+          <a href="https://dairyshop-inventory.vercel.app/" target="_blank" class="project-card">
+            <img src="assets/project 1.PNG" alt="Project 1 Screenshot">
+            <div class="overlay">
+                <h3>Project 1</h3>
+                <p>A web application designed to manage and store dairy products records.(MERN stack).</p>
+            </div>
+          </a>
+          <!-- Project Card 2 -->
+          <a href="https://yourprojectlink2.com" target="_blank" class="project-card">
+            <img src="assets/home 1.PNG" alt="Project 2 Screenshot">
+            <div class="overlay">
+                <h3>Project 2</h3>
+                <p>A web based job application portal for recruiters to post jobs and applicants to apply .(MERN stack).</p>
+              </div>
+          </a>
+          <a href="https://nicolekipkorir.netlify.app/" target="_blank" class="project-card">
+            <img src="assets/project 3.PNG" alt="Project 2 Screenshot">
+            <div class="overlay">
+                <h3>Project 3</h3>
+                <p>One of my first simple HTML, CSS and Java-script music website project without the backend.</p>
+              </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- resume -->
+
+      <!-- Resume Section -->
+<section id="resume" class="fade-in">
+    <h2>Resume</h2>
+    <p>Download my resume to learn more about my professional experience, skills, and education.</p>
+    <a href="assets/NicoleKipkorirCV.pdf" target="_blank" class="download-button">Download Resume</a>
+  </section>
+  
+
+  <!-- contact -->
+    
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>Let's connect! Feel free to reach out via email or connect with me on social media.</p>
+    
+    <div class="contact-links">
+      <!-- Email -->
+      <a href="mailto:nicolekipkorir@gmail.com" class="contact-icon">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/Nicole52-web" target="_blank" class="contact-icon">
+        <i class="fab fa-github"></i>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/nicole-kipkorir-0765b6281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <!-- Instagram -->
+      <a href="https://instagram.com/n.i.cole_52" target="_blank" class="contact-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/yourusername" target="_blank" class="contact-icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </section>
+
+      <script src="script.js"></script>
+    
+</body>
+</html>
